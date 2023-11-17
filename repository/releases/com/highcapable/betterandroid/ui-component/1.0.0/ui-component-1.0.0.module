@@ -140,11 +140,11 @@
         {
           "name": "ui-component-1.0.0-sources.jar",
           "url": "ui-component-1.0.0-sources.jar",
-          "size": 74290,
-          "sha512": "616d456464330ee8e369dbf28ca5bbfe3a7f8bdc1bcc0186605b87d41643a93b989a515d6608fed24ce6d9f31c63416f1258bfad75668ec051c056e55081034a",
-          "sha256": "04f0744536deebdd23e3abead39e6f3600dcc7e29fd6718dbd968a2110908568",
-          "sha1": "62a91cd5ce4c760c489b040b5a0a195595424b31",
-          "md5": "5aab278f7f8d9a449f0bbb91c1c2d87b"
+          "size": 74293,
+          "sha512": "3b01517adcac13cfb7a225ac200ee463c457b3d8b9ca4c761e417892740f9949131dcd442aa16d73cad0c6987ec6b7e1a5986d2d05e478fae1bdb64cb8131656",
+          "sha256": "d19aae733ca2b42deabf14d1c9587d4c8ffd20390162009a8cd491fd199b7d02",
+          "sha1": "bf97d1e7a7bed96b5f190c826a753d0b3cbf4bc6",
+          "md5": "2f99554ddb5fab8917af9f0ea5801699"
         }
       ]
     },

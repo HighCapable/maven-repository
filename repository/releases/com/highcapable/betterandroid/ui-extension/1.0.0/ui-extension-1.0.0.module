@@ -133,11 +133,11 @@
         {
           "name": "ui-extension-1.0.0-sources.jar",
           "url": "ui-extension-1.0.0-sources.jar",
-          "size": 32177,
-          "sha512": "732342149f7f737927afc9b2c749dc707e7e893d0bfbb4c73e97973515a94a1cdf03f2135fd261a3847e02ee0354bd47d3ec368c0115b258bf94e34ac8e18894",
-          "sha256": "49a6be635f556c9063516662bac27a09c7669919edbff9cb48f2c933aa0ec0b6",
-          "sha1": "91bfbdbfebb826db3f5826644b627387178c222e",
-          "md5": "ffbc81fe2186386caf8591ef6f6a938a"
+          "size": 32179,
+          "sha512": "77ba2a806ac4a1a07c9d1564d1aa496ed04aa2c76ddea103311678be2d25c8e6c8a00aeb4cf6e93374e8c45cd28bf86d798fe8f511ceee55f41154ef0399eea5",
+          "sha256": "b43970d4708a31c7cfcd4c739365fe57be5421c10b7a032e312490eb8043c54c",
+          "sha1": "8a9f21d6d16d25351ee613f0b1cb73f10bff62d0",
+          "md5": "c9ce4e4803ef5c013d0ef40c8b19d1d1"
         }
       ]
     },

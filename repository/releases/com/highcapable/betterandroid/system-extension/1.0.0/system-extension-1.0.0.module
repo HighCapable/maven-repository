@@ -98,11 +98,11 @@
         {
           "name": "system-extension-1.0.0-sources.jar",
           "url": "system-extension-1.0.0-sources.jar",
-          "size": 16417,
-          "sha512": "f573c949c11e35e877e1c10f45ae238706d9f251b1416b8b3c572280af2efa3d59ac99c648762da1c2982f2d8e7f95ccffa119951994b15b168e48b244b3b64d",
-          "sha256": "eafafac8c2bac06b5540957bb94db6ceb5490315f81630b27b417f7ce446b7f5",
-          "sha1": "05dffc68742b85151a93c853c7531f12be31b2cc",
-          "md5": "8e3b6cf443c48a4e961eca3343a6ae1c"
+          "size": 16416,
+          "sha512": "6369ba5262e5b4610e37349be74531a005d406511a72de1796733c5e084b3c28e860990d2a233134b6ea59fffdc7d25cb5cced0d1cd432c2daba263adcec029f",
+          "sha256": "3902028a842ffc5ebdaa4ef4de4d0b9dc11a31da5a7adfcb741195a029212f53",
+          "sha1": "02984d2a97afd06cc36a28e2f9ec45c71e37e3a3",
+          "md5": "c30d19cca5ec983d2f5eefccf4a04dd1"
         }
       ]
     },
