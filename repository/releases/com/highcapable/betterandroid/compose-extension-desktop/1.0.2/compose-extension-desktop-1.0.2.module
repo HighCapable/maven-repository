@@ -1,0 +1,113 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../compose-extension/1.0.2/compose-extension-1.0.2.module",
+    "group": "com.highcapable.betterandroid",
+    "module": "compose-extension",
+    "version": "1.0.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "desktopApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "compose-extension-desktop-1.0.2.jar",
+          "url": "compose-extension-desktop-1.0.2.jar",
+          "size": 81147,
+          "sha512": "0b0980008443c33d27469dc2c36d1c07f20f76a270cbbda0ac4fff0685449d169f62567659c11e7fbf2cb45e564d428a2d8eacb43715ceca56455a846501a0ef",
+          "sha256": "2f2e42474beb5761d557e51d7b5e6a66eecb3329f0492efb635ef512e4b49375",
+          "sha1": "1190636c0d1f71ac11666d95637982d67358c754",
+          "md5": "aa6f1bbf041a0ba6a544882934a5750e"
+        }
+      ]
+    },
+    {
+      "name": "desktopRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.runtime",
+          "module": "runtime",
+          "version": {
+            "requires": "1.5.11"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.foundation",
+          "module": "foundation",
+          "version": {
+            "requires": "1.5.11"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "compose-extension-desktop-1.0.2.jar",
+          "url": "compose-extension-desktop-1.0.2.jar",
+          "size": 81147,
+          "sha512": "0b0980008443c33d27469dc2c36d1c07f20f76a270cbbda0ac4fff0685449d169f62567659c11e7fbf2cb45e564d428a2d8eacb43715ceca56455a846501a0ef",
+          "sha256": "2f2e42474beb5761d557e51d7b5e6a66eecb3329f0492efb635ef512e4b49375",
+          "sha1": "1190636c0d1f71ac11666d95637982d67358c754",
+          "md5": "aa6f1bbf041a0ba6a544882934a5750e"
+        }
+      ]
+    },
+    {
+      "name": "desktopSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "compose-extension-desktop-1.0.2-sources.jar",
+          "url": "compose-extension-desktop-1.0.2-sources.jar",
+          "size": 22923,
+          "sha512": "4de096f62ccbac9ad5adf8b0e5ca5641ce8ef7a0a497f92499afaeb9892ccda190c84fc50c7c25ce834c5eec87375cdaf5c8bb4de1ce55e24dc40926c7a2fb56",
+          "sha256": "a7055afe99da826d61f4a69c979475fd3175c097912e4f0c6c79c211dabf3008",
+          "sha1": "05cfaa55be9f13c9a88cbd9949fa7e50eaad4dd1",
+          "md5": "9bc51945c652230c0b6c5de3a05bac76"
+        }
+      ]
+    }
+  ]
+}

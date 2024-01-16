@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <!-- This module was also published with a richer model, Gradle metadata,  -->
+  <!-- which should be used instead. Do not delete the following line which  -->
+  <!-- is to indicate to Gradle or any Gradle module metadata file consumer  -->
+  <!-- that they should prefer consuming it instead. -->
+  <!-- do_not_remove: published-with-gradle-metadata -->
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.highcapable.betterandroid</groupId>
+  <artifactId>compose-extension-iossimulatorarm64</artifactId>
+  <version>1.0.2</version>
+  <packaging>klib</packaging>
+  <name>BetterAndroid</name>
+  <description>Create more useful tool extensions for Android.</description>
+  <url>https://github.com/BetterAndroid/BetterAndroid</url>
+  <licenses>
+    <license>
+      <name>Apache License 2.0</name>
+      <url>https://github.com/BetterAndroid/BetterAndroid/blob/main/LICENSE</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>0</id>
+      <name>fankes</name>
+      <email>qzmmcn@163.com</email>
+      <url>https://github.com/fankes</url>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:git://github.com/BetterAndroid/BetterAndroid.git</connection>
+    <developerConnection>scm:git:ssh://github.com/BetterAndroid/BetterAndroid.git</developerConnection>
+    <url>https://github.com/BetterAndroid/BetterAndroid</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>org.jetbrains.kotlin</groupId>
+      <artifactId>kotlin-stdlib</artifactId>
+      <version>1.9.21</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.jetbrains.compose.runtime</groupId>
+      <artifactId>runtime-uikitsimarm64</artifactId>
+      <version>1.5.11</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.jetbrains.compose.foundation</groupId>
+      <artifactId>foundation-uikitsimarm64</artifactId>
+      <version>1.5.11</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>
