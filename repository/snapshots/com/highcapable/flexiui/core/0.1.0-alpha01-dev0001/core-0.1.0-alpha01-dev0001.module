@@ -1,0 +1,341 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.highcapable.flexiui",
+    "module": "core",
+    "version": "0.1.0-alpha01-dev0001",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.compose.foundation",
+          "module": "foundation",
+          "version": {
+            "requires": "1.5.11"
+          }
+        },
+        {
+          "group": "com.highcapable.flexiui",
+          "module": "resources",
+          "version": {
+            "requires": "0.1.0-alpha01"
+          }
+        },
+        {
+          "group": "com.highcapable.betterandroid",
+          "module": "compose-extension",
+          "version": {
+            "requires": "1.0.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.runtime",
+          "module": "runtime",
+          "version": {
+            "requires": "1.5.11"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.material",
+          "module": "material-ripple",
+          "version": {
+            "requires": "1.5.11"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "flexiui-core-metadata-0.1.0-alpha01-dev0001.jar",
+          "url": "core-0.1.0-alpha01-dev0001.jar",
+          "size": 32699,
+          "sha512": "23a810b10a105cac00d0bf81c6d154f5471cde3771c504dcaf0650479570e2a8791cc0d3abc96c7756398039a431c30ec8ebbedf683b1848a374e7c5fc199804",
+          "sha256": "9290a101359da5bac7199d70eda1b47d68c038778558b33ef4f8a2987c49d344",
+          "sha1": "a0bab022b7b45b10de598e92a66d59eaec23efa7",
+          "md5": "9c8ab5c964d0426a211b45e4b7494206"
+        }
+      ]
+    },
+    {
+      "name": "metadataSourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "files": [
+        {
+          "name": "flexiui-core-kotlin-0.1.0-alpha01-dev0001-sources.jar",
+          "url": "core-0.1.0-alpha01-dev0001-sources.jar",
+          "size": 85074,
+          "sha512": "a167872703bd8bf44b4a9b3b0b87e43016372b26d9f08f7f37338ec53a230d2efbc1035f5b23c5d3b693a1d1d3de87e2e3deeeae94a2c9462218c5b17921412c",
+          "sha256": "3b29fb6ccb3591607599abdb5dec8dce0cb8a94a4e92578d293493b1c81d5a20",
+          "sha1": "3167c47299c06786d33aa19d9453c86dd4ed935d",
+          "md5": "5ccdea9f31ba953818fb74b8a0badbe8"
+        }
+      ]
+    },
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../core-android/0.1.0-alpha01-dev0001/core-android-0.1.0-alpha01-dev0001.module",
+        "group": "com.highcapable.flexiui",
+        "module": "core-android",
+        "version": "0.1.0-alpha01-dev0001"
+      }
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../core-android/0.1.0-alpha01-dev0001/core-android-0.1.0-alpha01-dev0001.module",
+        "group": "com.highcapable.flexiui",
+        "module": "core-android",
+        "version": "0.1.0-alpha01-dev0001"
+      }
+    },
+    {
+      "name": "releaseSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../core-android/0.1.0-alpha01-dev0001/core-android-0.1.0-alpha01-dev0001.module",
+        "group": "com.highcapable.flexiui",
+        "module": "core-android",
+        "version": "0.1.0-alpha01-dev0001"
+      }
+    },
+    {
+      "name": "desktopApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../core-desktop/0.1.0-alpha01-dev0001/core-desktop-0.1.0-alpha01-dev0001.module",
+        "group": "com.highcapable.flexiui",
+        "module": "core-desktop",
+        "version": "0.1.0-alpha01-dev0001"
+      }
+    },
+    {
+      "name": "desktopRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../core-desktop/0.1.0-alpha01-dev0001/core-desktop-0.1.0-alpha01-dev0001.module",
+        "group": "com.highcapable.flexiui",
+        "module": "core-desktop",
+        "version": "0.1.0-alpha01-dev0001"
+      }
+    },
+    {
+      "name": "desktopSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../core-desktop/0.1.0-alpha01-dev0001/core-desktop-0.1.0-alpha01-dev0001.module",
+        "group": "com.highcapable.flexiui",
+        "module": "core-desktop",
+        "version": "0.1.0-alpha01-dev0001"
+      }
+    },
+    {
+      "name": "iosArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../core-iosarm64/0.1.0-alpha01-dev0001/core-iosarm64-0.1.0-alpha01-dev0001.module",
+        "group": "com.highcapable.flexiui",
+        "module": "core-iosarm64",
+        "version": "0.1.0-alpha01-dev0001"
+      }
+    },
+    {
+      "name": "iosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../core-iosarm64/0.1.0-alpha01-dev0001/core-iosarm64-0.1.0-alpha01-dev0001.module",
+        "group": "com.highcapable.flexiui",
+        "module": "core-iosarm64",
+        "version": "0.1.0-alpha01-dev0001"
+      }
+    },
+    {
+      "name": "iosArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../core-iosarm64/0.1.0-alpha01-dev0001/core-iosarm64-0.1.0-alpha01-dev0001.module",
+        "group": "com.highcapable.flexiui",
+        "module": "core-iosarm64",
+        "version": "0.1.0-alpha01-dev0001"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../core-iossimulatorarm64/0.1.0-alpha01-dev0001/core-iossimulatorarm64-0.1.0-alpha01-dev0001.module",
+        "group": "com.highcapable.flexiui",
+        "module": "core-iossimulatorarm64",
+        "version": "0.1.0-alpha01-dev0001"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../core-iossimulatorarm64/0.1.0-alpha01-dev0001/core-iossimulatorarm64-0.1.0-alpha01-dev0001.module",
+        "group": "com.highcapable.flexiui",
+        "module": "core-iossimulatorarm64",
+        "version": "0.1.0-alpha01-dev0001"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../core-iossimulatorarm64/0.1.0-alpha01-dev0001/core-iossimulatorarm64-0.1.0-alpha01-dev0001.module",
+        "group": "com.highcapable.flexiui",
+        "module": "core-iossimulatorarm64",
+        "version": "0.1.0-alpha01-dev0001"
+      }
+    },
+    {
+      "name": "iosX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../core-iosx64/0.1.0-alpha01-dev0001/core-iosx64-0.1.0-alpha01-dev0001.module",
+        "group": "com.highcapable.flexiui",
+        "module": "core-iosx64",
+        "version": "0.1.0-alpha01-dev0001"
+      }
+    },
+    {
+      "name": "iosX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../core-iosx64/0.1.0-alpha01-dev0001/core-iosx64-0.1.0-alpha01-dev0001.module",
+        "group": "com.highcapable.flexiui",
+        "module": "core-iosx64",
+        "version": "0.1.0-alpha01-dev0001"
+      }
+    },
+    {
+      "name": "iosX64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../core-iosx64/0.1.0-alpha01-dev0001/core-iosx64-0.1.0-alpha01-dev0001.module",
+        "group": "com.highcapable.flexiui",
+        "module": "core-iosx64",
+        "version": "0.1.0-alpha01-dev0001"
+      }
+    }
+  ]
+}
