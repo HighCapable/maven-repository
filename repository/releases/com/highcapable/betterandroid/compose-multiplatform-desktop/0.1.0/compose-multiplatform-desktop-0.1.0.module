@@ -1,0 +1,120 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../compose-multiplatform/0.1.0/compose-multiplatform-0.1.0.module",
+    "group": "com.highcapable.betterandroid",
+    "module": "compose-multiplatform",
+    "version": "0.1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "desktopApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "compose-multiplatform-desktop-0.1.0.jar",
+          "url": "compose-multiplatform-desktop-0.1.0.jar",
+          "size": 19093,
+          "sha512": "762ed53f2611c97d9f003d9cf5f5e80e89c2cab0cb2c2df7bd2369c5d51503b3c6eabb8e560b3880a8c61320672ddd6774c928572c0b01006a4778e75426abd0",
+          "sha256": "091638bd0d2de913ae57b4a317ea402e1757b49fd1a14d5077b9cb521fb42753",
+          "sha1": "7a13897227aaa4812382574967955d51246b691a",
+          "md5": "7efd65ed71eaeb42494aab3db8fb6d8e"
+        }
+      ]
+    },
+    {
+      "name": "desktopRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.runtime",
+          "module": "runtime",
+          "version": {
+            "requires": "1.5.11"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.foundation",
+          "module": "foundation",
+          "version": {
+            "requires": "1.5.11"
+          }
+        },
+        {
+          "group": "com.highcapable.betterandroid",
+          "module": "compose-extension",
+          "version": {
+            "requires": "1.0.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "compose-multiplatform-desktop-0.1.0.jar",
+          "url": "compose-multiplatform-desktop-0.1.0.jar",
+          "size": 19093,
+          "sha512": "762ed53f2611c97d9f003d9cf5f5e80e89c2cab0cb2c2df7bd2369c5d51503b3c6eabb8e560b3880a8c61320672ddd6774c928572c0b01006a4778e75426abd0",
+          "sha256": "091638bd0d2de913ae57b4a317ea402e1757b49fd1a14d5077b9cb521fb42753",
+          "sha1": "7a13897227aaa4812382574967955d51246b691a",
+          "md5": "7efd65ed71eaeb42494aab3db8fb6d8e"
+        }
+      ]
+    },
+    {
+      "name": "desktopSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "compose-multiplatform-desktop-0.1.0-sources.jar",
+          "url": "compose-multiplatform-desktop-0.1.0-sources.jar",
+          "size": 15079,
+          "sha512": "e2df8b8a21fdadc04c61d2e0ab44bee19c59a109dfd7a02ba9cc935a8e1971c4081d9d8bc3354c355251cf4629eb4438299d0e9cff6ac06be997deb92d9f164a",
+          "sha256": "9ad5109803944c7501ed0f43b70d6d539e16bba146191849a5548c1adeb68861",
+          "sha1": "15c625703cfe1eec2e8b17935aa26cc6d7389d77",
+          "md5": "48f4d4134f58188b6288fc19846db171"
+        }
+      ]
+    }
+  ]
+}

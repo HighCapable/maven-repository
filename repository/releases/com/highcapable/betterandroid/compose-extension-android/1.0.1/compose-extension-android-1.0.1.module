@@ -1,0 +1,153 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../compose-extension/1.0.1/compose-extension-1.0.1.module",
+    "group": "com.highcapable.betterandroid",
+    "module": "compose-extension",
+    "version": "1.0.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "compose-extension-release.aar",
+          "url": "compose-extension-android-1.0.1.aar",
+          "size": 76527,
+          "sha512": "e7181217455813bbeef673f46361bf22467b80643739ffb66d5b37408bb4fb79a12227f4839538172652ce8f267275736ea2431d7ef39226e75ad438f832a1b1",
+          "sha256": "3881596da4dc3661df08cad11c5cea73155c189a2acb348b6e1f2918aa185c6a",
+          "sha1": "09ed3c9d97012d9d3873d477cd1c581717d90256",
+          "md5": "51ea1f68f9200b730cc9f8c66ff184f7"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.21"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-stdlib-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-annotations-common"
+            }
+          ]
+        },
+        {
+          "group": "org.jetbrains.compose.runtime",
+          "module": "runtime",
+          "version": {
+            "requires": "1.5.11"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-stdlib-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-annotations-common"
+            }
+          ]
+        },
+        {
+          "group": "org.jetbrains.compose.foundation",
+          "module": "foundation",
+          "version": {
+            "requires": "1.5.11"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-stdlib-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-annotations-common"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "compose-extension-release.aar",
+          "url": "compose-extension-android-1.0.1.aar",
+          "size": 76527,
+          "sha512": "e7181217455813bbeef673f46361bf22467b80643739ffb66d5b37408bb4fb79a12227f4839538172652ce8f267275736ea2431d7ef39226e75ad438f832a1b1",
+          "sha256": "3881596da4dc3661df08cad11c5cea73155c189a2acb348b6e1f2918aa185c6a",
+          "sha1": "09ed3c9d97012d9d3873d477cd1c581717d90256",
+          "md5": "51ea1f68f9200b730cc9f8c66ff184f7"
+        }
+      ]
+    },
+    {
+      "name": "releaseSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "files": [
+        {
+          "name": "compose-extension-android-1.0.1-sources.jar",
+          "url": "compose-extension-android-1.0.1-sources.jar",
+          "size": 24104,
+          "sha512": "c62ad989f27e5aea4ba67fdf40c3f6a06136360a7b170dda59eb581f6d924420921e3ffbb15073140d0fe49c3d982676fa53b00b3f995eae99d9002d1c81b652",
+          "sha256": "0dfee7f013e561b6319a946922ac905e4ff4074c08a63dd158648153b491bcda",
+          "sha1": "ddfd0c0b67f57b2f34ed2fb0db30872029e22378",
+          "md5": "8710bec85b88ab17d138d953c545ae38"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,152 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../compose-multiplatform/0.1.0/compose-multiplatform-0.1.0.module",
+    "group": "com.highcapable.betterandroid",
+    "module": "compose-multiplatform",
+    "version": "0.1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "iosSimulatorArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.runtime",
+          "module": "runtime",
+          "version": {
+            "requires": "1.5.11"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.foundation",
+          "module": "foundation",
+          "version": {
+            "requires": "1.5.11"
+          }
+        },
+        {
+          "group": "com.highcapable.betterandroid",
+          "module": "compose-extension",
+          "version": {
+            "requires": "1.0.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "compose-multiplatform.klib",
+          "url": "compose-multiplatform-iossimulatorarm64-0.1.0.klib",
+          "size": 88081,
+          "sha512": "de4e31644919964968782edacc47e19546f55b9e0fedb12dd2a54386e921cfa3bb3b4c73d071960ad2bdd3856316bcbdee1b6cd783a76f3fed17ed3126a2100d",
+          "sha256": "06e54d65785a74a913ca2342ea21060f598171723bc36d0cae042bc775028fdf",
+          "sha1": "3eeed7f6fd59e710292a531b549c001bc2fadc65",
+          "md5": "7c15dd2c662a54841fc047363d6dec68"
+        },
+        {
+          "name": "compose-multiplatform-cinterop-uikit.klib",
+          "url": "compose-multiplatform-iossimulatorarm64-0.1.0-cinterop-uikit.klib",
+          "size": 9594,
+          "sha512": "fce6b197491e1a35d0b47b4a49f48fbc63ddd69704092b1c712f9c182b6a14969ecc6d3341129bdf8bf04b5fb18b4140f36680920b9c7466ff2f512a9dd87d29",
+          "sha256": "f4f87c9342cd6a88b4f301fb05daeeb11a3335833059dca5199b9acac6fff4cc",
+          "sha1": "e66c3741a58bdd60416ecd55af7eae9e44242cd2",
+          "md5": "de30bb4b1213736877c76a4cb73d6903"
+        }
+      ]
+    },
+    {
+      "name": "iosSimulatorArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "compose-multiplatform-iossimulatorarm64-0.1.0-sources.jar",
+          "url": "compose-multiplatform-iossimulatorarm64-0.1.0-sources.jar",
+          "size": 30599,
+          "sha512": "401c727e2759c38ccc08470580ed212f2d22f348802d05899f8f47531f518f976b4257c1b40e95a2ffc7a81c134ed4b5b4fdba9b6390b567068927e7ae853957",
+          "sha256": "99065fae25c4f22466f2cec5a166dd190a849e43eeffef2a96741da2184cccf7",
+          "sha1": "b4b6747bb380fe786a8ac692f7aa0712f7bc0e2f",
+          "md5": "426de19bc79e101c0af3a744b9dafa6a"
+        }
+      ]
+    },
+    {
+      "name": "iosSimulatorArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.runtime",
+          "module": "runtime",
+          "version": {
+            "requires": "1.5.11"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.foundation",
+          "module": "foundation",
+          "version": {
+            "requires": "1.5.11"
+          }
+        },
+        {
+          "group": "com.highcapable.betterandroid",
+          "module": "compose-extension",
+          "version": {
+            "requires": "1.0.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "compose-multiplatform-iossimulatorarm64-0.1.0-metadata.jar",
+          "url": "compose-multiplatform-iossimulatorarm64-0.1.0-metadata.jar",
+          "size": 23316,
+          "sha512": "ea72ce5f2f13f21c85f04fb7a79534b9b230de975855eb809e77d78cbdf5ab49a292676d8d61f3e7f856bd28b3cdf7439c9644ad6a1ea1d5c4d700a7c367c722",
+          "sha256": "573e5b159263fba9c9bef659e18c892f038bd3ec172ab1a161ab201a4763721e",
+          "sha1": "1d5f1ad52a27847be364cf645111db7ec25401c2",
+          "md5": "09f3e4a258785f60c2cace617956e7c9"
+        }
+      ]
+    }
+  ]
+}

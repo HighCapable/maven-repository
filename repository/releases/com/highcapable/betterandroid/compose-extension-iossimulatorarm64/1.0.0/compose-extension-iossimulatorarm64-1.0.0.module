@@ -1,0 +1,129 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../compose-extension/1.0.0/compose-extension-1.0.0.module",
+    "group": "com.highcapable.betterandroid",
+    "module": "compose-extension",
+    "version": "1.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "iosSimulatorArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.runtime",
+          "module": "runtime",
+          "version": {
+            "requires": "1.5.11"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.foundation",
+          "module": "foundation",
+          "version": {
+            "requires": "1.5.11"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "compose-extension.klib",
+          "url": "compose-extension-iossimulatorarm64-1.0.0.klib",
+          "size": 53428,
+          "sha512": "23ee6681d61eab6334a3995608c029bc150581cd966f53a31c4c7b388867ddfdb1d33f6563084d74b9fa1be0509809d69e77c33ba90e59315f3190a4ccc6f62f",
+          "sha256": "92c3f3b7b8f9f2d96509f2f038ba4256987a300f9d808178398bd5765f2f40fb",
+          "sha1": "04ed72b47ff04fc0cfcf05109342552b45b167eb",
+          "md5": "73257a39f2d6ec3ee88d01b83247c41a"
+        }
+      ]
+    },
+    {
+      "name": "iosSimulatorArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "compose-extension-iossimulatorarm64-1.0.0-sources.jar",
+          "url": "compose-extension-iossimulatorarm64-1.0.0-sources.jar",
+          "size": 22778,
+          "sha512": "3952e7cbc740a415ce50cc7fa85788c3390ffdc4969a28f9ca21fc60834f61a7c3879ad3d27218f3c7e389254542016ea0fbec3a71aa015a44ed1f304f9adbbd",
+          "sha256": "5a8f085400be4bd07a975a7d1885fef62fa0f96f59902979dc30c4ecbce84660",
+          "sha1": "8e4e9af0130e0600e036a2d451e44304cb9f0999",
+          "md5": "d275ea0e441080d84e371a3381cfeda1"
+        }
+      ]
+    },
+    {
+      "name": "iosSimulatorArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.runtime",
+          "module": "runtime",
+          "version": {
+            "requires": "1.5.11"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.foundation",
+          "module": "foundation",
+          "version": {
+            "requires": "1.5.11"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "compose-extension-iossimulatorarm64-1.0.0-metadata.jar",
+          "url": "compose-extension-iossimulatorarm64-1.0.0-metadata.jar",
+          "size": 7892,
+          "sha512": "d0f960a7ec58f760501f84ed85b81aec49d9a30a7d8f938871deeed3370813c575d7bf587219f486cd56d9bea48dafd072e5e2b9abc8001270be131107b481e4",
+          "sha256": "5040845ff9c6af3f10737e3836474129c608af6845005e1db8dc9780d319c637",
+          "sha1": "668041340f7bfda9d36ec689d08ae76228fe01c5",
+          "md5": "8d393c8f222f531377ef497bc968bdf7"
+        }
+      ]
+    }
+  ]
+}

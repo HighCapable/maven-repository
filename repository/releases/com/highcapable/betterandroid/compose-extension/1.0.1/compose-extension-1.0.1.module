@@ -1,0 +1,320 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.highcapable.betterandroid",
+    "module": "compose-extension",
+    "version": "1.0.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.runtime",
+          "module": "runtime",
+          "version": {
+            "requires": "1.5.11"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.foundation",
+          "module": "foundation",
+          "version": {
+            "requires": "1.5.11"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "compose-extension-metadata-1.0.1.jar",
+          "url": "compose-extension-1.0.1.jar",
+          "size": 11681,
+          "sha512": "3908274a5980dc40db24ad8493f5637cd74778387f61ee28cf054f0baf3759a486c8c9d1746192994428c23a3181a3dbc6c8be6e9c1ce6068fcc6c68fc62d758",
+          "sha256": "44a4eff60c127dce5a36f636da314117d06f6a9db9ae8220041bc1485101d510",
+          "sha1": "537de44b234a82dcd8a8e97d434635845cfadc54",
+          "md5": "1f163efc9500fbc447b72ad2bfd15491"
+        }
+      ]
+    },
+    {
+      "name": "metadataSourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "files": [
+        {
+          "name": "compose-extension-kotlin-1.0.1-sources.jar",
+          "url": "compose-extension-1.0.1-sources.jar",
+          "size": 22635,
+          "sha512": "0f7364f48c32a94db43c2474737cd520bdf22b580789d2c160b8b9f390894a24ca0dbd566386280fddee704641fad9805b96023994591ce7bd0fc841b90d4592",
+          "sha256": "ef57d3be69a9b62f33daafb7cd4b8b64ffd2c02013ecd52d910b9a2abd188ec4",
+          "sha1": "878122493388ab608f8cdfc7c4a5857ac2b18d27",
+          "md5": "b2fce098f00467cd67b954d8f9250af5"
+        }
+      ]
+    },
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../compose-extension-android/1.0.1/compose-extension-android-1.0.1.module",
+        "group": "com.highcapable.betterandroid",
+        "module": "compose-extension-android",
+        "version": "1.0.1"
+      }
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../compose-extension-android/1.0.1/compose-extension-android-1.0.1.module",
+        "group": "com.highcapable.betterandroid",
+        "module": "compose-extension-android",
+        "version": "1.0.1"
+      }
+    },
+    {
+      "name": "releaseSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../compose-extension-android/1.0.1/compose-extension-android-1.0.1.module",
+        "group": "com.highcapable.betterandroid",
+        "module": "compose-extension-android",
+        "version": "1.0.1"
+      }
+    },
+    {
+      "name": "desktopApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../compose-extension-desktop/1.0.1/compose-extension-desktop-1.0.1.module",
+        "group": "com.highcapable.betterandroid",
+        "module": "compose-extension-desktop",
+        "version": "1.0.1"
+      }
+    },
+    {
+      "name": "desktopRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../compose-extension-desktop/1.0.1/compose-extension-desktop-1.0.1.module",
+        "group": "com.highcapable.betterandroid",
+        "module": "compose-extension-desktop",
+        "version": "1.0.1"
+      }
+    },
+    {
+      "name": "desktopSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../compose-extension-desktop/1.0.1/compose-extension-desktop-1.0.1.module",
+        "group": "com.highcapable.betterandroid",
+        "module": "compose-extension-desktop",
+        "version": "1.0.1"
+      }
+    },
+    {
+      "name": "iosArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../compose-extension-iosarm64/1.0.1/compose-extension-iosarm64-1.0.1.module",
+        "group": "com.highcapable.betterandroid",
+        "module": "compose-extension-iosarm64",
+        "version": "1.0.1"
+      }
+    },
+    {
+      "name": "iosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../compose-extension-iosarm64/1.0.1/compose-extension-iosarm64-1.0.1.module",
+        "group": "com.highcapable.betterandroid",
+        "module": "compose-extension-iosarm64",
+        "version": "1.0.1"
+      }
+    },
+    {
+      "name": "iosArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../compose-extension-iosarm64/1.0.1/compose-extension-iosarm64-1.0.1.module",
+        "group": "com.highcapable.betterandroid",
+        "module": "compose-extension-iosarm64",
+        "version": "1.0.1"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../compose-extension-iossimulatorarm64/1.0.1/compose-extension-iossimulatorarm64-1.0.1.module",
+        "group": "com.highcapable.betterandroid",
+        "module": "compose-extension-iossimulatorarm64",
+        "version": "1.0.1"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../compose-extension-iossimulatorarm64/1.0.1/compose-extension-iossimulatorarm64-1.0.1.module",
+        "group": "com.highcapable.betterandroid",
+        "module": "compose-extension-iossimulatorarm64",
+        "version": "1.0.1"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../compose-extension-iossimulatorarm64/1.0.1/compose-extension-iossimulatorarm64-1.0.1.module",
+        "group": "com.highcapable.betterandroid",
+        "module": "compose-extension-iossimulatorarm64",
+        "version": "1.0.1"
+      }
+    },
+    {
+      "name": "iosX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../compose-extension-iosx64/1.0.1/compose-extension-iosx64-1.0.1.module",
+        "group": "com.highcapable.betterandroid",
+        "module": "compose-extension-iosx64",
+        "version": "1.0.1"
+      }
+    },
+    {
+      "name": "iosX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../compose-extension-iosx64/1.0.1/compose-extension-iosx64-1.0.1.module",
+        "group": "com.highcapable.betterandroid",
+        "module": "compose-extension-iosx64",
+        "version": "1.0.1"
+      }
+    },
+    {
+      "name": "iosX64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../compose-extension-iosx64/1.0.1/compose-extension-iosx64-1.0.1.module",
+        "group": "com.highcapable.betterandroid",
+        "module": "compose-extension-iosx64",
+        "version": "1.0.1"
+      }
+    }
+  ]
+}

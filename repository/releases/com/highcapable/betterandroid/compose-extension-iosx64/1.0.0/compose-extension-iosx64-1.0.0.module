@@ -1,0 +1,129 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../compose-extension/1.0.0/compose-extension-1.0.0.module",
+    "group": "com.highcapable.betterandroid",
+    "module": "compose-extension",
+    "version": "1.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "iosX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.runtime",
+          "module": "runtime",
+          "version": {
+            "requires": "1.5.11"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.foundation",
+          "module": "foundation",
+          "version": {
+            "requires": "1.5.11"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "compose-extension.klib",
+          "url": "compose-extension-iosx64-1.0.0.klib",
+          "size": 53326,
+          "sha512": "3186929206af29cce48ed313ff6b18832413dc324ab3f966c184bfab23961f7d9cf8e0355ddbe8119f15b5350a9b01f1b0c08013ebdc3e83b15a0b89599fed6d",
+          "sha256": "a364efcae8bd84dc93c0df2e63504750b2fdf9ff714132a86817e5d7a8f4991f",
+          "sha1": "dfcee204cc84db29189e58cf52f7aa47567e59a1",
+          "md5": "88de4771a8ae367c4cad4ad25653b078"
+        }
+      ]
+    },
+    {
+      "name": "iosX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "compose-extension-iosx64-1.0.0-sources.jar",
+          "url": "compose-extension-iosx64-1.0.0-sources.jar",
+          "size": 22602,
+          "sha512": "062846fa166cab7b1c6023d840937e457ec21f6de7d4686b4e71676bc7abc045a40732fff7590fac1db26814e1d94c24919616be5152bf436165a798a162951d",
+          "sha256": "00cf77f9c027f6bbf86f67b1f4f35b7815d3447f9a9ff1843ca06b2824458b43",
+          "sha1": "bf109eea066f2b856493842f8c7a96cd62726016",
+          "md5": "d752c6d8b283c807dc7e1aced2b6795d"
+        }
+      ]
+    },
+    {
+      "name": "iosX64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.runtime",
+          "module": "runtime",
+          "version": {
+            "requires": "1.5.11"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.foundation",
+          "module": "foundation",
+          "version": {
+            "requires": "1.5.11"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "compose-extension-iosx64-1.0.0-metadata.jar",
+          "url": "compose-extension-iosx64-1.0.0-metadata.jar",
+          "size": 7892,
+          "sha512": "9529894aaeeda64e3f1fd665fee0933fb7d9e404be0200339e40181b136b9cae96160c06f1a3282c3807d3c8fef4e6279c414021a97f196ecbfbc65bed101331",
+          "sha256": "81ab8e7533e0eeaec0c8730f8bc8f77b9fa538375873da793960f99d9dd343ce",
+          "sha1": "738e8a5695deaa88aa79c0b51f4cb58a20e0be6f",
+          "md5": "9c86e9645a6f9abf1bd79a797fac1e8b"
+        }
+      ]
+    }
+  ]
+}

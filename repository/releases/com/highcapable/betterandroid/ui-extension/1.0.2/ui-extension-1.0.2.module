@@ -1,0 +1,145 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.highcapable.betterandroid",
+    "module": "ui-extension",
+    "version": "1.0.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.databinding",
+          "module": "viewbinding",
+          "version": {
+            "requires": "8.2.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ui-extension-1.0.2.aar",
+          "url": "ui-extension-1.0.2.aar",
+          "size": 89673,
+          "sha512": "b7fcef6dd9c88bc393b4fe7fe14c1351eedffcb1936422f8e421f005b23ea99354c06ddb1c40803671c8138694844ab3c4a72328a4cd5308e98c190d61d78374",
+          "sha256": "fed168ffecfb2b093b838cce3ef303a84807966bb30c7e454f7b0f7be88811bb",
+          "sha1": "2f94edb394e3eee89fe71715a7bf733acae75659",
+          "md5": "6b2bf6c7bcf5bc36f7a8ca0742fa2fd5"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.highcapable.betterandroid",
+          "module": "system-extension",
+          "version": {
+            "requires": "1.0.1"
+          }
+        },
+        {
+          "group": "com.highcapable.yukireflection",
+          "module": "api",
+          "version": {
+            "requires": "1.0.3"
+          }
+        },
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.12.0"
+          }
+        },
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.6.1"
+          }
+        },
+        {
+          "group": "com.google.android.material",
+          "module": "material",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "androidx.databinding",
+          "module": "viewbinding",
+          "version": {
+            "requires": "8.2.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ui-extension-1.0.2.aar",
+          "url": "ui-extension-1.0.2.aar",
+          "size": 89673,
+          "sha512": "b7fcef6dd9c88bc393b4fe7fe14c1351eedffcb1936422f8e421f005b23ea99354c06ddb1c40803671c8138694844ab3c4a72328a4cd5308e98c190d61d78374",
+          "sha256": "fed168ffecfb2b093b838cce3ef303a84807966bb30c7e454f7b0f7be88811bb",
+          "sha1": "2f94edb394e3eee89fe71715a7bf733acae75659",
+          "md5": "6b2bf6c7bcf5bc36f7a8ca0742fa2fd5"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "ui-extension-1.0.2-sources.jar",
+          "url": "ui-extension-1.0.2-sources.jar",
+          "size": 34691,
+          "sha512": "a729e14a739297c9db9b9517ecfe8d28e4f274e724e6abcd0305dc90bc97b2b2aa33ac7bf8693ff6804735577e99cf68032961f8c9218dd13069ff7ed57bcb28",
+          "sha256": "2906d7f3cf8fc09603ab1cf6089493d4bde91615e6ba8e56381f66d848871b53",
+          "sha1": "27dcaa5b07853826b0a7962914f6f1ca05b7c936",
+          "md5": "d4bab2d83c65a777007853c173a92c35"
+        }
+      ]
+    }
+  ]
+}
