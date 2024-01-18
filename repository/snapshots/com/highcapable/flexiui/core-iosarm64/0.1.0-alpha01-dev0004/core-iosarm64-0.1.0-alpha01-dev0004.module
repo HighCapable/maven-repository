@@ -1,0 +1,171 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../core/0.1.0-alpha01-dev0004/core-0.1.0-alpha01-dev0004.module",
+    "group": "com.highcapable.flexiui",
+    "module": "core",
+    "version": "0.1.0-alpha01-dev0004",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "iosArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.compose.foundation",
+          "module": "foundation",
+          "version": {
+            "requires": "1.5.11"
+          }
+        },
+        {
+          "group": "com.highcapable.flexiui",
+          "module": "resources",
+          "version": {
+            "requires": "0.1.0-alpha01"
+          }
+        },
+        {
+          "group": "com.highcapable.betterandroid",
+          "module": "compose-extension",
+          "version": {
+            "requires": "1.0.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.runtime",
+          "module": "runtime",
+          "version": {
+            "requires": "1.5.11"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.material",
+          "module": "material-ripple",
+          "version": {
+            "requires": "1.5.11"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "flexiui-core.klib",
+          "url": "core-iosarm64-0.1.0-alpha01-dev0004.klib",
+          "size": 599121,
+          "sha512": "393d483d9db5daabbd70e04407f6c0b5c41f039c53e31b402c7ee238cdce7fb1fed0693411b5e325b0e8aa3a7024b5e61a6492190a579cbfc67e74095fb74495",
+          "sha256": "1c83cff68cf1cfb339abed014993816092c9984104ad4158615d2cb3a3f18484",
+          "sha1": "f5f6115462cb3a2c3fc6146192d8e91140a86ea8",
+          "md5": "cf86fcd1dfc7a8d8b1e09a96cec636a3"
+        }
+      ]
+    },
+    {
+      "name": "iosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "flexiui-core-iosarm64-0.1.0-alpha01-dev0004-sources.jar",
+          "url": "core-iosarm64-0.1.0-alpha01-dev0004-sources.jar",
+          "size": 89493,
+          "sha512": "d8ee9a38416aaabb3d284ad3548e7ac4bdfbfe1abb7ce9b3b9e3feb543ec8329ff91b22d623f2d5ac612dcbec8f76bf1ecea89d3c547ef9169bc588e9c70caa1",
+          "sha256": "ae75b3ca987968a1abf167f943be12f336eed28f7e486081027623512c7a96de",
+          "sha1": "7a9dfd35b6dd8a351863264913ef785bc54db0d3",
+          "md5": "6808bfd997421d60a8bda6f6d0c36689"
+        }
+      ]
+    },
+    {
+      "name": "iosArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.compose.foundation",
+          "module": "foundation",
+          "version": {
+            "requires": "1.5.11"
+          }
+        },
+        {
+          "group": "com.highcapable.flexiui",
+          "module": "resources",
+          "version": {
+            "requires": "0.1.0-alpha01"
+          }
+        },
+        {
+          "group": "com.highcapable.betterandroid",
+          "module": "compose-extension",
+          "version": {
+            "requires": "1.0.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.runtime",
+          "module": "runtime",
+          "version": {
+            "requires": "1.5.11"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.material",
+          "module": "material-ripple",
+          "version": {
+            "requires": "1.5.11"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "flexiui-core-iosarm64-0.1.0-alpha01-dev0004-metadata.jar",
+          "url": "core-iosarm64-0.1.0-alpha01-dev0004-metadata.jar",
+          "size": 6819,
+          "sha512": "ad427494938f8b5d23f5ee4205691f415c59955538ecf6ec8aa922e7e7724331caef539b39c9f5581088f8d885eb5017ec8c18f9bb6df4981dda94e4a9ae0b3a",
+          "sha256": "5aa3a68d31ab3f5a8acf4e84fa7ae67373d018185dd52a662e7647d74505f250",
+          "sha1": "52cf63acdbf64b3940ebdf2e29589e2d977a2fb9",
+          "md5": "51f88c8e55a2682f5543fee243464cc5"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,155 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../core/0.1.0-alpha01-dev0004/core-0.1.0-alpha01-dev0004.module",
+    "group": "com.highcapable.flexiui",
+    "module": "core",
+    "version": "0.1.0-alpha01-dev0004",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "desktopApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.compose.foundation",
+          "module": "foundation",
+          "version": {
+            "requires": "1.5.11"
+          }
+        },
+        {
+          "group": "com.highcapable.flexiui",
+          "module": "resources",
+          "version": {
+            "requires": "0.1.0-alpha01"
+          }
+        },
+        {
+          "group": "com.highcapable.betterandroid",
+          "module": "compose-extension",
+          "version": {
+            "requires": "1.0.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "flexiui-core-desktop-0.1.0-alpha01-dev0004.jar",
+          "url": "core-desktop-0.1.0-alpha01-dev0004.jar",
+          "size": 1021538,
+          "sha512": "3a752888e71ec80e6013ca71ce07dd81605eaefb4dc827673ca22d9d29c1fabed96e99326de4c5a4bd554e5365cb1f9d2e2b1be4963c17d6dee360829f29bfda",
+          "sha256": "5439b0d367f38700206395a817f7269384fc0b5384ee3429e105dfe209054941",
+          "sha1": "a233d3dbc1e7e3a5033c16c44d816a3ea8acd8fe",
+          "md5": "eab79f1d28ddb91210312bcdb01f2a19"
+        }
+      ]
+    },
+    {
+      "name": "desktopRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.compose.foundation",
+          "module": "foundation",
+          "version": {
+            "requires": "1.5.11"
+          }
+        },
+        {
+          "group": "com.highcapable.flexiui",
+          "module": "resources",
+          "version": {
+            "requires": "0.1.0-alpha01"
+          }
+        },
+        {
+          "group": "com.highcapable.betterandroid",
+          "module": "compose-extension",
+          "version": {
+            "requires": "1.0.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.runtime",
+          "module": "runtime",
+          "version": {
+            "requires": "1.5.11"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.material",
+          "module": "material-ripple",
+          "version": {
+            "requires": "1.5.11"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "flexiui-core-desktop-0.1.0-alpha01-dev0004.jar",
+          "url": "core-desktop-0.1.0-alpha01-dev0004.jar",
+          "size": 1021538,
+          "sha512": "3a752888e71ec80e6013ca71ce07dd81605eaefb4dc827673ca22d9d29c1fabed96e99326de4c5a4bd554e5365cb1f9d2e2b1be4963c17d6dee360829f29bfda",
+          "sha256": "5439b0d367f38700206395a817f7269384fc0b5384ee3429e105dfe209054941",
+          "sha1": "a233d3dbc1e7e3a5033c16c44d816a3ea8acd8fe",
+          "md5": "eab79f1d28ddb91210312bcdb01f2a19"
+        }
+      ]
+    },
+    {
+      "name": "desktopSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "flexiui-core-desktop-0.1.0-alpha01-dev0004-sources.jar",
+          "url": "core-desktop-0.1.0-alpha01-dev0004-sources.jar",
+          "size": 90942,
+          "sha512": "d3b2bbbd73326dcc6f9753fc25620705eb0586f7389ce8d6b5a05420f7848bb005f77cec13915412a32a7939473dae19d229d469f33ce8779430d9c2e2749173",
+          "sha256": "30baee4107d59675a7bfef8f88aa22e2097c7a57510a27079cdf2e1e605999c6",
+          "sha1": "27c950220ecea3c83d3dabeaeae250cfcb89fe9d",
+          "md5": "a4fc141962be6d38a4974cd0db30f306"
+        }
+      ]
+    }
+  ]
+}
