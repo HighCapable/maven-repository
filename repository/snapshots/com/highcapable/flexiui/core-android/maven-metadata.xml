@@ -3,14 +3,15 @@
   <groupId>com.highcapable.flexiui</groupId>
   <artifactId>core-android</artifactId>
   <versioning>
-    <latest>0.1.0-alpha01-dev0004</latest>
-    <release>0.1.0-alpha01-dev0004</release>
+    <latest>0.1.0-alpha01-dev0005</latest>
+    <release>0.1.0-alpha01-dev0005</release>
     <versions>
       <version>0.1.0-alpha01-dev0001</version>
       <version>0.1.0-alpha01-dev0002</version>
       <version>0.1.0-alpha01-dev0003</version>
       <version>0.1.0-alpha01-dev0004</version>
+      <version>0.1.0-alpha01-dev0005</version>
     </versions>
-    <lastUpdated>20240118160749</lastUpdated>
+    <lastUpdated>20240120085434</lastUpdated>
   </versioning>
 </metadata>
