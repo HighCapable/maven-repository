@@ -1,0 +1,123 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../resources/0.1.0-alpha01/resources-0.1.0-alpha01.module",
+    "group": "com.highcapable.flexiui",
+    "module": "resources",
+    "version": "0.1.0-alpha01",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.7"
+    }
+  },
+  "variants": [
+    {
+      "name": "desktopApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "flexiui-resources-desktop-0.1.0-alpha01.jar",
+          "url": "resources-desktop-0.1.0-alpha01.jar",
+          "size": 30055,
+          "sha512": "b026dff2e2e1abfba4824a9bd21331c74b9ad1e94ab6e0823753fb697940b07d79d286ef67ca08f314245bf52e3694d158437c3010a1aed119e85c12fe765f04",
+          "sha256": "e8048ba67a160f10303e6e8e5d03903020d7c57987c249e4d79f1272bd2fbc70",
+          "sha1": "328ccf651fb98b41e098439443d66709271fc6f6",
+          "md5": "dcf16a2911c4a9177b6a54a829835706"
+        }
+      ]
+    },
+    {
+      "name": "desktopRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.runtime",
+          "module": "runtime",
+          "version": {
+            "requires": "1.6.11"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.foundation",
+          "module": "foundation",
+          "version": {
+            "requires": "1.6.11"
+          }
+        },
+        {
+          "group": "com.highcapable.betterandroid",
+          "module": "compose-extension",
+          "version": {
+            "requires": "1.0.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "flexiui-resources-desktop-0.1.0-alpha01.jar",
+          "url": "resources-desktop-0.1.0-alpha01.jar",
+          "size": 30055,
+          "sha512": "b026dff2e2e1abfba4824a9bd21331c74b9ad1e94ab6e0823753fb697940b07d79d286ef67ca08f314245bf52e3694d158437c3010a1aed119e85c12fe765f04",
+          "sha256": "e8048ba67a160f10303e6e8e5d03903020d7c57987c249e4d79f1272bd2fbc70",
+          "sha1": "328ccf651fb98b41e098439443d66709271fc6f6",
+          "md5": "dcf16a2911c4a9177b6a54a829835706"
+        }
+      ]
+    },
+    {
+      "name": "desktopSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "flexiui-resources-desktop-0.1.0-alpha01-sources.jar",
+          "url": "resources-desktop-0.1.0-alpha01-sources.jar",
+          "size": 11172,
+          "sha512": "335fc250d8a967bd3276ff4e194c0c5f6b9d9cf714587cc9693776b952e0fb7c56610ffc82b45bda2b7cd73d3d93e373ecc09134b66e96c6176d12ebbaab60b0",
+          "sha256": "cc71b9e792df702857e695bc1d3a024ff3a833977b32801eec972983646a8fcb",
+          "sha1": "b2301fe22ae43d4481b7a3da224462e3ff3bb250",
+          "md5": "61264f6e61ff6379e74bd37095942476"
+        }
+      ]
+    }
+  ]
+}
