@@ -1,0 +1,131 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.highcapable.pangutext",
+    "module": "pangutext-android",
+    "version": "1.0.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.10.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "pangutext-android-1.0.2.aar",
+          "url": "pangutext-android-1.0.2.aar",
+          "size": 61870,
+          "sha512": "70b4ff8a74334eaee2f871235efb45a17ccbd7414b994b0492eefd6e3ee034bbd5d5f179525590c09540b412d46570bf5c9d064db97de6acd3a9bf95e4ff7457",
+          "sha256": "70ba5bf38138c85091156915fdc95e4f28b49243b2e5505f5a9bc250b4d6dfcb",
+          "sha1": "0441ff0036e996ad11214e77eddf042e46cc6140",
+          "md5": "8118655b5b2f6704ea5f543892976b0a"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.highcapable.yukireflection",
+          "module": "api",
+          "version": {
+            "requires": "1.0.3"
+          }
+        },
+        {
+          "group": "com.highcapable.betterandroid",
+          "module": "ui-extension",
+          "version": {
+            "requires": "1.0.6"
+          }
+        },
+        {
+          "group": "com.highcapable.betterandroid",
+          "module": "system-extension",
+          "version": {
+            "requires": "1.0.2"
+          }
+        },
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.15.0"
+          }
+        },
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.7.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "pangutext-android-1.0.2.aar",
+          "url": "pangutext-android-1.0.2.aar",
+          "size": 61870,
+          "sha512": "70b4ff8a74334eaee2f871235efb45a17ccbd7414b994b0492eefd6e3ee034bbd5d5f179525590c09540b412d46570bf5c9d064db97de6acd3a9bf95e4ff7457",
+          "sha256": "70ba5bf38138c85091156915fdc95e4f28b49243b2e5505f5a9bc250b4d6dfcb",
+          "sha1": "0441ff0036e996ad11214e77eddf042e46cc6140",
+          "md5": "8118655b5b2f6704ea5f543892976b0a"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "pangutext-android-1.0.2-sources.jar",
+          "url": "pangutext-android-1.0.2-sources.jar",
+          "size": 22408,
+          "sha512": "056ceab33d3c52ff356f2862a4b7bb3571e95be2a697f14b00918a1be5e3bd860087e4f8a09ba96e231c75a11aa2a71d5143aa1eb3f382d50f9cf1c7a4ce2610",
+          "sha256": "e8475c08aa3a0ec33c0ed046bf10b82f0d6ae76e155305f54375470f1f5b8042",
+          "sha1": "277bf0d4e98b682e8db2462f170720c25cf11e21",
+          "md5": "07ad735e0dbb6090a9c066d8ea2a28d3"
+        }
+      ]
+    }
+  ]
+}
