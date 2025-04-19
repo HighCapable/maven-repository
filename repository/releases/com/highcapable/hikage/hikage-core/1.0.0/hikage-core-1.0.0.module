@@ -1,0 +1,145 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.highcapable.hikage",
+    "module": "hikage-core",
+    "version": "1.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.highcapable.betterandroid",
+          "module": "ui-extension",
+          "version": {
+            "requires": "1.0.6"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "hikage-core-1.0.0.aar",
+          "url": "hikage-core-1.0.0.aar",
+          "size": 357304,
+          "sha512": "7cd60c255cda24498e7e28f2cf48a7af4266b80f60ec2baefc6b3a2bbb69035ba9ab42f7efdb9fb473df19d12314ebb5eec579f3ace809a2ad2dffe3839b383b",
+          "sha256": "5c878829fec4b551f992fb52dfd9bb3ce6e8cbebaa9513e2583ee6178285c8c9",
+          "sha1": "123aeacbb993458c010f7895398b74935a94f288",
+          "md5": "3b5ab282a29ffb8114b187e3d89eada7"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.lsposed.hiddenapibypass",
+          "module": "hiddenapibypass",
+          "version": {
+            "requires": "6.1"
+          }
+        },
+        {
+          "group": "com.highcapable.yukireflection",
+          "module": "api",
+          "version": {
+            "requires": "1.0.3"
+          }
+        },
+        {
+          "group": "com.highcapable.betterandroid",
+          "module": "system-extension",
+          "version": {
+            "requires": "1.0.2"
+          }
+        },
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.15.0"
+          }
+        },
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.7.0"
+          }
+        },
+        {
+          "group": "com.highcapable.betterandroid",
+          "module": "ui-extension",
+          "version": {
+            "requires": "1.0.6"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "hikage-core-1.0.0.aar",
+          "url": "hikage-core-1.0.0.aar",
+          "size": 357304,
+          "sha512": "7cd60c255cda24498e7e28f2cf48a7af4266b80f60ec2baefc6b3a2bbb69035ba9ab42f7efdb9fb473df19d12314ebb5eec579f3ace809a2ad2dffe3839b383b",
+          "sha256": "5c878829fec4b551f992fb52dfd9bb3ce6e8cbebaa9513e2583ee6178285c8c9",
+          "sha1": "123aeacbb993458c010f7895398b74935a94f288",
+          "md5": "3b5ab282a29ffb8114b187e3d89eada7"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "hikage-core-1.0.0-sources.jar",
+          "url": "hikage-core-1.0.0-sources.jar",
+          "size": 26405,
+          "sha512": "b9f4fb6b584adb9c68b373ba706cf0f81436ff5d12b75b0b81b72f310367bbc890d996c052b22da362f153e4dae87b56ca96f8f9f394562baa15e2fb5b897ec4",
+          "sha256": "c86f664627a7f29a78d452c468cf70dc8ba71a5c14546cbd103dd8a37aa75469",
+          "sha1": "789e3fa6bad6f13c679696847c9b8d81e83eb7a7",
+          "md5": "a7188d462795744a8e467c5db28a58cc"
+        }
+      ]
+    }
+  ]
+}
