@@ -1,0 +1,102 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.highcapable.kavaref",
+    "module": "kavaref-extension",
+    "version": "1.0.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kavaref-extension-1.0.1.jar",
+          "url": "kavaref-extension-1.0.1.jar",
+          "size": 26390,
+          "sha512": "564e60df7ae71e7e5fa2ea007109b3decf858fa40d55e1e9bc04544d4a25d0165514f12fd914569a37b61b4a16e40bc470d0946741431842b6b72fce9c0503d3",
+          "sha256": "b44f7971f8d6efbb41488dac32bf73792a12a52a8fb5793779878a477bb188a1",
+          "sha1": "c04ee65a4b2d9f175baec3f7c3af4da14f9480ba",
+          "md5": "df6c74ea64f550ffd2afa7cbad307d82"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kavaref-extension-1.0.1.jar",
+          "url": "kavaref-extension-1.0.1.jar",
+          "size": 26390,
+          "sha512": "564e60df7ae71e7e5fa2ea007109b3decf858fa40d55e1e9bc04544d4a25d0165514f12fd914569a37b61b4a16e40bc470d0946741431842b6b72fce9c0503d3",
+          "sha256": "b44f7971f8d6efbb41488dac32bf73792a12a52a8fb5793779878a477bb188a1",
+          "sha1": "c04ee65a4b2d9f175baec3f7c3af4da14f9480ba",
+          "md5": "df6c74ea64f550ffd2afa7cbad307d82"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "kavaref-extension-1.0.1-sources.jar",
+          "url": "kavaref-extension-1.0.1-sources.jar",
+          "size": 10680,
+          "sha512": "5fc4784bfc53d79e8c9b101503170927e3f8e228b2a9a6bd08a8f653e8bad18f3f3852dcd4ebcf5474a15bf3cab632608ffc0727524c268bf73c96ae96705096",
+          "sha256": "7ed1937250f78679a23e5bb224b69fabba62e34f9750df69ce74b4c8cca5000d",
+          "sha1": "d715915450a8c762042157a7d185242dbc614573",
+          "md5": "46fc8a98814bd22bf52496650f512d98"
+        }
+      ]
+    }
+  ]
+}
