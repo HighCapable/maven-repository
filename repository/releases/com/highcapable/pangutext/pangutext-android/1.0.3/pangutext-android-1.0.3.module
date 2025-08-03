@@ -1,0 +1,138 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.highcapable.pangutext",
+    "module": "pangutext-android",
+    "version": "1.0.3",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "pangutext-android-1.0.3.aar",
+          "url": "pangutext-android-1.0.3.aar",
+          "size": 65338,
+          "sha512": "ae8f20cbf3fc2a69aa2a55713fd1d89895333e91c27f3a30cb00388325cfd68fe6139269fd1a14c59dd487425b82a27e3c39c14f301ee06bdcd96c83f3071dcf",
+          "sha256": "c163fba6db01317eb421b23d177b5f267c2385e5d893572e4d63d2e53ef75a6e",
+          "sha1": "f0fbc3496901e593f0b838483634c778358dbae8",
+          "md5": "ec0b46affc05138351d97013e4d30d31"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.highcapable.kavaref",
+          "module": "kavaref-core",
+          "version": {
+            "requires": "1.0.1"
+          }
+        },
+        {
+          "group": "com.highcapable.kavaref",
+          "module": "kavaref-extension",
+          "version": {
+            "requires": "1.0.1"
+          }
+        },
+        {
+          "group": "com.highcapable.betterandroid",
+          "module": "ui-extension",
+          "version": {
+            "requires": "1.0.7"
+          }
+        },
+        {
+          "group": "com.highcapable.betterandroid",
+          "module": "system-extension",
+          "version": {
+            "requires": "1.0.3"
+          }
+        },
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.16.0"
+          }
+        },
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.7.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "pangutext-android-1.0.3.aar",
+          "url": "pangutext-android-1.0.3.aar",
+          "size": 65338,
+          "sha512": "ae8f20cbf3fc2a69aa2a55713fd1d89895333e91c27f3a30cb00388325cfd68fe6139269fd1a14c59dd487425b82a27e3c39c14f301ee06bdcd96c83f3071dcf",
+          "sha256": "c163fba6db01317eb421b23d177b5f267c2385e5d893572e4d63d2e53ef75a6e",
+          "sha1": "f0fbc3496901e593f0b838483634c778358dbae8",
+          "md5": "ec0b46affc05138351d97013e4d30d31"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "pangutext-android-1.0.3-sources.jar",
+          "url": "pangutext-android-1.0.3-sources.jar",
+          "size": 22542,
+          "sha512": "d8a2482529cda4ba957e0f703f79799bfa627ff417473d04e6d35a7387890e210f97d05f0a2ea0ceb3eb6374909b4466dce7b6a1ceebe2e41d95157c386ce302",
+          "sha256": "b71911bdd15f364fd02a7bc4e82a53d573c8746ab21488364ef64fff522272c0",
+          "sha1": "ac13cfa2d127da791dd01c90f60352fe3c80a0fa",
+          "md5": "4171f7b6164adbdb606846ac07e74908"
+        }
+      ]
+    }
+  ]
+}
