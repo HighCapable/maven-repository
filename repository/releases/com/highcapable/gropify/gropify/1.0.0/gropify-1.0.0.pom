@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <!-- This module was also published with a richer model, Gradle metadata,  -->
+  <!-- which should be used instead. Do not delete the following line which  -->
+  <!-- is to indicate to Gradle or any Gradle module metadata file consumer  -->
+  <!-- that they should prefer consuming it instead. -->
+  <!-- do_not_remove: published-with-gradle-metadata -->
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.highcapable.gropify</groupId>
+  <artifactId>gropify</artifactId>
+  <version>1.0.0</version>
+  <name>Gropify</name>
+  <description>A type-safe and modern properties plugin for Gradle.</description>
+  <url>https://github.com/HighCapable/Gropify</url>
+  <licenses>
+    <license>
+      <name>Apache License 2.0</name>
+      <url>https://github.com/HighCapable/Gropify/blob/main/LICENSE</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>0</id>
+      <name>fankes</name>
+      <email>qzmmcn@163.com</email>
+      <url>https://github.com/fankes</url>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:git://github.com/HighCapable/Gropify</connection>
+    <developerConnection>scm:git:ssh://github.com/HighCapable/Gropify</developerConnection>
+    <url>https://github.com/HighCapable/Gropify</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>tools.jackson.module</groupId>
+      <artifactId>jackson-module-kotlin</artifactId>
+      <version>3.0.1</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.highcapable.kavaref</groupId>
+      <artifactId>kavaref-core</artifactId>
+      <version>1.0.2</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.highcapable.kavaref</groupId>
+      <artifactId>kavaref-extension</artifactId>
+      <version>1.0.1</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.squareup</groupId>
+      <artifactId>kotlinpoet-jvm</artifactId>
+      <version>2.2.0</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.palantir.javapoet</groupId>
+      <artifactId>javapoet</artifactId>
+      <version>0.7.0</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>net.lingala.zip4j</groupId>
+      <artifactId>zip4j</artifactId>
+      <version>2.11.5</version>
+      <scope>runtime</scope>
+    </dependency>
+  </dependencies>
+</project>

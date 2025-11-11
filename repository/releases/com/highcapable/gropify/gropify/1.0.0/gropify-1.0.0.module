@@ -1,0 +1,128 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.highcapable.gropify",
+    "module": "gropify",
+    "version": "1.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.2.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "gropify-1.0.0.jar",
+          "url": "gropify-1.0.0.jar",
+          "size": 198915,
+          "sha512": "1e1c82daea880ddd079edd4bc2008c356b6c62b6ea2c46069553126dd661dbc0fe86884aceb4f3c30115fb9b37411c00599c5c3e6b55cd15ca5e7723a142b3a2",
+          "sha256": "c48613f31922f4a42037778afff57166f2b6da9a35037e64fd471f9d75848e2f",
+          "sha1": "3722fe04a68b688408a3aa54341b4693b9a45cb6",
+          "md5": "b4108e1104dc6666103ab3aaea1d9b7d"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "tools.jackson.module",
+          "module": "jackson-module-kotlin",
+          "version": {
+            "requires": "3.0.1"
+          }
+        },
+        {
+          "group": "com.highcapable.kavaref",
+          "module": "kavaref-core",
+          "version": {
+            "requires": "1.0.2"
+          }
+        },
+        {
+          "group": "com.highcapable.kavaref",
+          "module": "kavaref-extension",
+          "version": {
+            "requires": "1.0.1"
+          }
+        },
+        {
+          "group": "com.squareup",
+          "module": "kotlinpoet",
+          "version": {
+            "requires": "2.2.0"
+          }
+        },
+        {
+          "group": "com.palantir.javapoet",
+          "module": "javapoet",
+          "version": {
+            "requires": "0.7.0"
+          }
+        },
+        {
+          "group": "net.lingala.zip4j",
+          "module": "zip4j",
+          "version": {
+            "requires": "2.11.5"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "gropify-1.0.0.jar",
+          "url": "gropify-1.0.0.jar",
+          "size": 198915,
+          "sha512": "1e1c82daea880ddd079edd4bc2008c356b6c62b6ea2c46069553126dd661dbc0fe86884aceb4f3c30115fb9b37411c00599c5c3e6b55cd15ca5e7723a142b3a2",
+          "sha256": "c48613f31922f4a42037778afff57166f2b6da9a35037e64fd471f9d75848e2f",
+          "sha1": "3722fe04a68b688408a3aa54341b4693b9a45cb6",
+          "md5": "b4108e1104dc6666103ab3aaea1d9b7d"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "gropify-1.0.0-sources.jar",
+          "url": "gropify-1.0.0-sources.jar",
+          "size": 62644,
+          "sha512": "14092cd36354ea4df531cd6231ab3cd5153bf3cc42803c1776ba0aaeb4e76c6092f16e917ac83d0211fdd7af4c3e150d260ebff2780614576a5b02a5ee6b03be",
+          "sha256": "a1b8225c5a3edee04385ba2d3940f759554a47139e5823b485f618dadb89845a",
+          "sha1": "32651da351934de10055212000f7d5675dce31e8",
+          "md5": "0fd62e0278557e9a8b8b80f1012a6c80"
+        }
+      ]
+    }
+  ]
+}
