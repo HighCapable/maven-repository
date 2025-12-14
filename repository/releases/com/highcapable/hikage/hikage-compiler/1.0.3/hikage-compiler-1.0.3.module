@@ -1,0 +1,123 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.highcapable.hikage",
+    "module": "hikage-compiler",
+    "version": "1.0.3",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.2.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "hikage-compiler-1.0.3.jar",
+          "url": "hikage-compiler-1.0.3.jar",
+          "size": 49412,
+          "sha512": "bbf4210b234ac51f1af2d5ecb7a29f86c48bcd4ea962248ba1a9c7cb04973dba65c24d2f668f69d37df82cf2ad0d11f9de32798295fafab321639ffaa13cfa19",
+          "sha256": "ce1a76aa2a2b4d195f5d0792e73be0cafab2d9a942eb0cbf71004aea1494a1f4",
+          "sha1": "bae143ac470a3a5f7b69eb0e688dbf6658611bb8",
+          "md5": "b6e842a65b79ee26d980b4591b309b40"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.google.auto.service",
+          "module": "auto-service-annotations",
+          "version": {
+            "requires": "1.1.1"
+          }
+        },
+        {
+          "group": "com.squareup",
+          "module": "kotlinpoet",
+          "version": {
+            "requires": "2.2.0"
+          }
+        },
+        {
+          "group": "com.squareup",
+          "module": "kotlinpoet-ksp",
+          "version": {
+            "requires": "2.2.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "hikage-compiler-1.0.3.jar",
+          "url": "hikage-compiler-1.0.3.jar",
+          "size": 49412,
+          "sha512": "bbf4210b234ac51f1af2d5ecb7a29f86c48bcd4ea962248ba1a9c7cb04973dba65c24d2f668f69d37df82cf2ad0d11f9de32798295fafab321639ffaa13cfa19",
+          "sha256": "ce1a76aa2a2b4d195f5d0792e73be0cafab2d9a942eb0cbf71004aea1494a1f4",
+          "sha1": "bae143ac470a3a5f7b69eb0e688dbf6658611bb8",
+          "md5": "b6e842a65b79ee26d980b4591b309b40"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "hikage-compiler-1.0.3-sources.jar",
+          "url": "hikage-compiler-1.0.3-sources.jar",
+          "size": 12277,
+          "sha512": "d45eb1fe7a1edc7ffee8a8e8bfaaefef4d7cedf53452071859595fbdf6bb478250db5bbee794a5a0603380f36126dc1e523ceea7d513ef7bbb0bc6e7e71e814a",
+          "sha256": "d58b3784d9b21ddd7cadef9a2ed44a969a89af97056a8acf1d3f7461438d0fad",
+          "sha1": "45f1be79ce03ea64424fbf9b34694d2bca9cf38c",
+          "md5": "1ebaa7f5735634406655d55039c4415f"
+        }
+      ]
+    }
+  ]
+}
