@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <!-- This module was also published with a richer model, Gradle metadata,  -->
+  <!-- which should be used instead. Do not delete the following line which  -->
+  <!-- is to indicate to Gradle or any Gradle module metadata file consumer  -->
+  <!-- that they should prefer consuming it instead. -->
+  <!-- do_not_remove: published-with-gradle-metadata -->
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.highcapable.hikage</groupId>
+  <artifactId>hikage-extension</artifactId>
+  <version>1.0.3</version>
+  <packaging>aar</packaging>
+  <name>Hikage</name>
+  <description>An Android responsive UI building tool.</description>
+  <url>https://github.com/BetterAndroid/Hikage</url>
+  <licenses>
+    <license>
+      <name>Apache License 2.0</name>
+      <url>https://github.com/BetterAndroid/Hikage/blob/main/LICENSE</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>0</id>
+      <name>fankes</name>
+      <email>qzmmcn@163.com</email>
+      <url>https://github.com/fankes</url>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:git://github.com/BetterAndroid/Hikage.git</connection>
+    <developerConnection>scm:git:ssh://github.com/BetterAndroid/Hikage.git</developerConnection>
+    <url>https://github.com/BetterAndroid/Hikage</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>org.jetbrains.kotlin</groupId>
+      <artifactId>kotlin-stdlib</artifactId>
+      <version>2.2.21</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.highcapable.hikage</groupId>
+      <artifactId>hikage-core</artifactId>
+      <version>1.0.4</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.highcapable.kavaref</groupId>
+      <artifactId>kavaref-core</artifactId>
+      <version>1.0.2</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.highcapable.kavaref</groupId>
+      <artifactId>kavaref-extension</artifactId>
+      <version>1.0.2</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.highcapable.betterandroid</groupId>
+      <artifactId>ui-extension</artifactId>
+      <version>1.0.9</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.highcapable.betterandroid</groupId>
+      <artifactId>system-extension</artifactId>
+      <version>1.0.4</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.core</groupId>
+      <artifactId>core-ktx</artifactId>
+      <version>1.17.0</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.appcompat</groupId>
+      <artifactId>appcompat</artifactId>
+      <version>1.7.1</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.constraintlayout</groupId>
+      <artifactId>constraintlayout</artifactId>
+      <version>2.2.1</version>
+      <scope>runtime</scope>
+    </dependency>
+  </dependencies>
+</project>

@@ -1,0 +1,152 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.highcapable.hikage",
+    "module": "hikage-extension",
+    "version": "1.0.3",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.2.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "hikage-extension-1.0.3.aar",
+          "url": "hikage-extension-1.0.3.aar",
+          "size": 21839,
+          "sha512": "d90150df35080f6799e41db80ca031ff0e2df4b22dd3472b3c00ee066ec5ce629c4855b9543933e88936d7a3ab5c9f721ad60da98bb96860bfd69114e9049b08",
+          "sha256": "d169c6291e417f89cc73bfa7502b5e7629932133c7fa3d4691c07837deeceb66",
+          "sha1": "60a01d533f38de1b7be0d997c5532ada33f07b66",
+          "md5": "d7c4cef1267791a86e0520e934fada8b"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.highcapable.hikage",
+          "module": "hikage-core",
+          "version": {
+            "requires": "1.0.4"
+          }
+        },
+        {
+          "group": "com.highcapable.kavaref",
+          "module": "kavaref-core",
+          "version": {
+            "requires": "1.0.2"
+          }
+        },
+        {
+          "group": "com.highcapable.kavaref",
+          "module": "kavaref-extension",
+          "version": {
+            "requires": "1.0.2"
+          }
+        },
+        {
+          "group": "com.highcapable.betterandroid",
+          "module": "ui-extension",
+          "version": {
+            "requires": "1.0.9"
+          }
+        },
+        {
+          "group": "com.highcapable.betterandroid",
+          "module": "system-extension",
+          "version": {
+            "requires": "1.0.4"
+          }
+        },
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.17.0"
+          }
+        },
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.7.1"
+          }
+        },
+        {
+          "group": "androidx.constraintlayout",
+          "module": "constraintlayout",
+          "version": {
+            "requires": "2.2.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "hikage-extension-1.0.3.aar",
+          "url": "hikage-extension-1.0.3.aar",
+          "size": 21839,
+          "sha512": "d90150df35080f6799e41db80ca031ff0e2df4b22dd3472b3c00ee066ec5ce629c4855b9543933e88936d7a3ab5c9f721ad60da98bb96860bfd69114e9049b08",
+          "sha256": "d169c6291e417f89cc73bfa7502b5e7629932133c7fa3d4691c07837deeceb66",
+          "sha1": "60a01d533f38de1b7be0d997c5532ada33f07b66",
+          "md5": "d7c4cef1267791a86e0520e934fada8b"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "hikage-extension-1.0.3-sources.jar",
+          "url": "hikage-extension-1.0.3-sources.jar",
+          "size": 10088,
+          "sha512": "65718871134fb4a982d3bbac46e4ae4e93d6c8f1dbb1349a1e9a2733bcc2c6512559d3fd461aeea24d8e554ad9850957b29d74b50b33f863f3f3ed9275df3def",
+          "sha256": "b039a14d669178c46d56f11adbe9c915f25fa2f9d9756e7a25f79b5a48329271",
+          "sha1": "925ea62e0c2e0e7d5f7352587a9273faa7774807",
+          "md5": "7710e5ab477e3a3cd16f52ae1e40608f"
+        }
+      ]
+    }
+  ]
+}
