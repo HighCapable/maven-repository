@@ -1,0 +1,181 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.highcapable.betterandroid",
+    "module": "ui-component-adapter",
+    "version": "1.1.6",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.7.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.10"
+          }
+        },
+        {
+          "group": "androidx.databinding",
+          "module": "viewbinding",
+          "version": {
+            "requires": "9.3.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ui-component-adapter-1.1.6.aar",
+          "url": "ui-component-adapter-1.1.6.aar",
+          "size": 165011,
+          "sha512": "98b7fc9d8a4099b7d545ccf36bf39c288d32e488c4482a56f3cc1afc0c01e4fae8d373c1722aae8ffbb2aaa47dee4424614cca239fb8b87f966f8c4661eaff13",
+          "sha256": "862c618f7aa861d49b10d60dff5deadd9b271553a28b12ba0e0bf94ae0c312a8",
+          "sha1": "1409375145a8fb51e5549557f268ce37d2a31ff7",
+          "md5": "cd6cd636e17693ec078900c688cf9e57"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.highcapable.betterandroid",
+          "module": "ui-extension",
+          "version": {
+            "requires": "1.1.6"
+          }
+        },
+        {
+          "group": "com.highcapable.betterandroid",
+          "module": "system-extension",
+          "version": {
+            "requires": "1.1.6"
+          }
+        },
+        {
+          "group": "com.highcapable.kavaref",
+          "module": "kavaref-bom",
+          "version": {
+            "requires": "1.1.0"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          }
+        },
+        {
+          "group": "com.highcapable.kavaref",
+          "module": "kavaref-core"
+        },
+        {
+          "group": "com.highcapable.kavaref",
+          "module": "kavaref-android"
+        },
+        {
+          "group": "com.highcapable.kavaref",
+          "module": "kavaref-extension"
+        },
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.19.0"
+          }
+        },
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.8.0"
+          }
+        },
+        {
+          "group": "androidx.recyclerview",
+          "module": "recyclerview",
+          "version": {
+            "requires": "1.4.0"
+          }
+        },
+        {
+          "group": "androidx.viewpager",
+          "module": "viewpager",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "androidx.viewpager2",
+          "module": "viewpager2",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.10"
+          }
+        },
+        {
+          "group": "androidx.databinding",
+          "module": "viewbinding",
+          "version": {
+            "requires": "9.3.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ui-component-adapter-1.1.6.aar",
+          "url": "ui-component-adapter-1.1.6.aar",
+          "size": 165011,
+          "sha512": "98b7fc9d8a4099b7d545ccf36bf39c288d32e488c4482a56f3cc1afc0c01e4fae8d373c1722aae8ffbb2aaa47dee4424614cca239fb8b87f966f8c4661eaff13",
+          "sha256": "862c618f7aa861d49b10d60dff5deadd9b271553a28b12ba0e0bf94ae0c312a8",
+          "sha1": "1409375145a8fb51e5549557f268ce37d2a31ff7",
+          "md5": "cd6cd636e17693ec078900c688cf9e57"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "ui-component-adapter-1.1.6-sources.jar",
+          "url": "ui-component-adapter-1.1.6-sources.jar",
+          "size": 57624,
+          "sha512": "f40bd25acfef3e87344b52fb650919080cdce850c521f90614b92fe6bac4bbdb39afec51b107c0fde84c6833695f7dd87fbc39b0ca6427a9eb2b344da56d7a10",
+          "sha256": "1d25926fb0279a4f22d4e0129df957dc06163678be6aba0524c63e1028c09e44",
+          "sha1": "ad71b806afcd735526c35ec87410143d3e87d0bb",
+          "md5": "fb1804df765ef9cc2dc393cdab5e4b85"
+        }
+      ]
+    }
+  ]
+}
