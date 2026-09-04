@@ -1,0 +1,156 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.highcapable.anip",
+    "module": "anip-sdk",
+    "version": "1.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.7.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "anip-sdk-1.0.0.aar",
+          "url": "anip-sdk-1.0.0.aar",
+          "size": 136249,
+          "sha512": "7e362608c9f8d6cf6f0878bcc4001a6bd43a19282e33cce98d231128b392bd9a914f332b90cc3fe68b4e8155e22fb6c6b3a58479e6ba253aa4e5c7f765db9aa0",
+          "sha256": "f8ae439d1bc8b641528249555a67c20e5e1805b405725640671f7ccdac443d1b",
+          "sha1": "3959e325ca72f42d4297be413c4acc79db899a8a",
+          "md5": "bf0b08015c944b93f04f94e4985e842e"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-android",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "com.squareup.okhttp3",
+          "module": "okhttp",
+          "version": {
+            "requires": "5.5.0"
+          }
+        },
+        {
+          "group": "com.caverock",
+          "module": "androidsvg-aar",
+          "version": {
+            "requires": "1.4"
+          }
+        },
+        {
+          "group": "com.highcapable.betterandroid",
+          "module": "android-bom",
+          "version": {
+            "requires": "1.1.6"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          }
+        },
+        {
+          "group": "com.highcapable.betterandroid",
+          "module": "ui-extension"
+        },
+        {
+          "group": "com.highcapable.betterandroid",
+          "module": "system-extension"
+        },
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.19.0"
+          }
+        },
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.8.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "anip-sdk-1.0.0.aar",
+          "url": "anip-sdk-1.0.0.aar",
+          "size": 136249,
+          "sha512": "7e362608c9f8d6cf6f0878bcc4001a6bd43a19282e33cce98d231128b392bd9a914f332b90cc3fe68b4e8155e22fb6c6b3a58479e6ba253aa4e5c7f765db9aa0",
+          "sha256": "f8ae439d1bc8b641528249555a67c20e5e1805b405725640671f7ccdac443d1b",
+          "sha1": "3959e325ca72f42d4297be413c4acc79db899a8a",
+          "md5": "bf0b08015c944b93f04f94e4985e842e"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "anip-sdk-1.0.0-sources.jar",
+          "url": "anip-sdk-1.0.0-sources.jar",
+          "size": 42237,
+          "sha512": "c0885078c9000fb231b78c851c345eb8646faa67eb6cf53d02091a0e384537f50774aa39bdec274780db6044147f5ad80baea7d8d9de3fc5a5958dcf14ef1163",
+          "sha256": "0a556760afdb411b1d54ee5c7c9e4b1ebb57b803c81d0ab970a4b69f2b05371b",
+          "sha1": "77973a1dc956bda5ae5e73925f9fba5bd4fa30e3",
+          "md5": "c26ae826e80824dcc2dccfbb77480ca9"
+        }
+      ]
+    }
+  ]
+}
