@@ -1,0 +1,118 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.highcapable.kavaref",
+    "module": "kavaref-extension",
+    "version": "1.1.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.8.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kavaref-extension-1.1.1.jar",
+          "url": "kavaref-extension-1.1.1.jar",
+          "size": 40743,
+          "sha512": "94f070dd185b5529eef1be447ca018e586e80bc6911cc37c02d719702457bc114c5b51dba70621d3eafcd702fb02d8318018797728e4c3f46d1a980c7dba6b17",
+          "sha256": "c387e8b4f35eee31006ee0209165ef18f112d7e8cbe7ecda6a29a44610f780ec",
+          "sha1": "d2789882c3ebd858d1fee33959c29093450287e7",
+          "md5": "2bca4cc0ff046c7ef39a4ac4ed5da6ad"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kavaref-extension-1.1.1.jar",
+          "url": "kavaref-extension-1.1.1.jar",
+          "size": 40743,
+          "sha512": "94f070dd185b5529eef1be447ca018e586e80bc6911cc37c02d719702457bc114c5b51dba70621d3eafcd702fb02d8318018797728e4c3f46d1a980c7dba6b17",
+          "sha256": "c387e8b4f35eee31006ee0209165ef18f112d7e8cbe7ecda6a29a44610f780ec",
+          "sha1": "d2789882c3ebd858d1fee33959c29093450287e7",
+          "md5": "2bca4cc0ff046c7ef39a4ac4ed5da6ad"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "kavaref-extension-1.1.1-sources.jar",
+          "url": "kavaref-extension-1.1.1-sources.jar",
+          "size": 14925,
+          "sha512": "a181b2e0b4b5783277b3187861a570cc64424c32a35dad01e4e39cb09b909d078d5933c44e72008331aff57f7c852d0b903353b8aea48063d57162f850ec48e7",
+          "sha256": "c541b4a0a1336df57f681e2521ef83b28472764bc1f372e0857310831cdf518d",
+          "sha1": "a589181e7fd20a277013f6856b572148022c5570",
+          "md5": "e7c144d461a67be1f8b161758962d1cb"
+        },
+        {
+          "name": "kavaref-extension-1.1.1-sources.jar",
+          "url": "kavaref-extension-1.1.1-sources.jar",
+          "size": 14925,
+          "sha512": "a181b2e0b4b5783277b3187861a570cc64424c32a35dad01e4e39cb09b909d078d5933c44e72008331aff57f7c852d0b903353b8aea48063d57162f850ec48e7",
+          "sha256": "c541b4a0a1336df57f681e2521ef83b28472764bc1f372e0857310831cdf518d",
+          "sha1": "a589181e7fd20a277013f6856b572148022c5570",
+          "md5": "e7c144d461a67be1f8b161758962d1cb"
+        }
+      ]
+    }
+  ]
+}

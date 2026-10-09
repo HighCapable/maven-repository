@@ -1,0 +1,92 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.highcapable.kavaref",
+    "module": "kavaref-bom",
+    "version": "1.1.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.8.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "platform",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencyConstraints": [
+        {
+          "group": "com.highcapable.kavaref",
+          "module": "kavaref-core",
+          "version": {
+            "requires": "1.1.1"
+          }
+        },
+        {
+          "group": "com.highcapable.kavaref",
+          "module": "kavaref-android",
+          "version": {
+            "requires": "1.1.1"
+          }
+        },
+        {
+          "group": "com.highcapable.kavaref",
+          "module": "kavaref-jvm",
+          "version": {
+            "requires": "1.1.1"
+          }
+        },
+        {
+          "group": "com.highcapable.kavaref",
+          "module": "kavaref-extension",
+          "version": {
+            "requires": "1.1.1"
+          }
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "platform",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencyConstraints": [
+        {
+          "group": "com.highcapable.kavaref",
+          "module": "kavaref-core",
+          "version": {
+            "requires": "1.1.1"
+          }
+        },
+        {
+          "group": "com.highcapable.kavaref",
+          "module": "kavaref-android",
+          "version": {
+            "requires": "1.1.1"
+          }
+        },
+        {
+          "group": "com.highcapable.kavaref",
+          "module": "kavaref-jvm",
+          "version": {
+            "requires": "1.1.1"
+          }
+        },
+        {
+          "group": "com.highcapable.kavaref",
+          "module": "kavaref-extension",
+          "version": {
+            "requires": "1.1.1"
+          }
+        }
+      ]
+    }
+  ]
+}

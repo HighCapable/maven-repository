@@ -1,0 +1,118 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.highcapable.kavaref",
+    "module": "kavaref-jvm",
+    "version": "1.1.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.8.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kavaref-jvm-1.1.1.jar",
+          "url": "kavaref-jvm-1.1.1.jar",
+          "size": 10449,
+          "sha512": "94e694783259e8db3ee13af03b919f177cc804e939f1f73147f28a6c9ff80c67a34c015020a08c2dc136ce667461bdbec693687e1e477e54d781685db36186da",
+          "sha256": "6b40f8c7f9274dad787dc8e618b259f087bfb3b8cbeb226486c51772b35c333a",
+          "sha1": "070a3e60dcb4833ae31080226fc89731c3c9901a",
+          "md5": "ae7a69d7f11550fc9199e0cb47960a74"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.highcapable.kavaref",
+          "module": "kavaref-core",
+          "version": {
+            "requires": "1.1.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kavaref-jvm-1.1.1.jar",
+          "url": "kavaref-jvm-1.1.1.jar",
+          "size": 10449,
+          "sha512": "94e694783259e8db3ee13af03b919f177cc804e939f1f73147f28a6c9ff80c67a34c015020a08c2dc136ce667461bdbec693687e1e477e54d781685db36186da",
+          "sha256": "6b40f8c7f9274dad787dc8e618b259f087bfb3b8cbeb226486c51772b35c333a",
+          "sha1": "070a3e60dcb4833ae31080226fc89731c3c9901a",
+          "md5": "ae7a69d7f11550fc9199e0cb47960a74"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "kavaref-jvm-1.1.1-sources.jar",
+          "url": "kavaref-jvm-1.1.1-sources.jar",
+          "size": 6870,
+          "sha512": "ceeca8de4c6a85d7c99ffb531a983b56a72f92c4fb85c4b1870819735019683af150f9ef11535cc81fd5cf06438a8656f14249ce82adab11bd91bf948b3acc51",
+          "sha256": "b24885d2ec8993ef055871ae3468bfbdc596bc4402f70bd38602e14e5f5ecaae",
+          "sha1": "10e7657655ca916f582ea8953072a2dffbf6d58d",
+          "md5": "28247d7231c32688cadf95ca942b70ae"
+        },
+        {
+          "name": "kavaref-jvm-1.1.1-sources.jar",
+          "url": "kavaref-jvm-1.1.1-sources.jar",
+          "size": 6870,
+          "sha512": "ceeca8de4c6a85d7c99ffb531a983b56a72f92c4fb85c4b1870819735019683af150f9ef11535cc81fd5cf06438a8656f14249ce82adab11bd91bf948b3acc51",
+          "sha256": "b24885d2ec8993ef055871ae3468bfbdc596bc4402f70bd38602e14e5f5ecaae",
+          "sha1": "10e7657655ca916f582ea8953072a2dffbf6d58d",
+          "md5": "28247d7231c32688cadf95ca942b70ae"
+        }
+      ]
+    }
+  ]
+}
