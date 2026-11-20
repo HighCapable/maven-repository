@@ -1,0 +1,146 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.highcapable.yukihookapi",
+    "module": "yukihook-extension-kavaref",
+    "version": "1.5.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.8.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "yukihook-extension-kavaref-1.5.1.aar",
+          "url": "yukihook-extension-kavaref-1.5.1.aar",
+          "size": 45877,
+          "sha512": "2a02d321d3124d836702171bbf6c58ea1165a6904a00e2e532250bfa1c20e075f29b2f65245d50e21cc5005d276ea5759873c0675e0e6809f394b04af2af926b",
+          "sha256": "0bde2fe00ccfd5798015a7588a1d0d949957a5be5e0207ad83a9163f2ec6974d",
+          "sha1": "a2c53763e861d76b6250c0e201a3452ff8caf628",
+          "md5": "0533eaa8837751444672bf147d615c8e"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.highcapable.yukihookapi",
+          "module": "yukihook-core",
+          "version": {
+            "requires": "1.5.1"
+          }
+        },
+        {
+          "group": "org.lsposed.hiddenapibypass",
+          "module": "hiddenapibypass",
+          "version": {
+            "requires": "6.2"
+          }
+        },
+        {
+          "group": "com.highcapable.kavaref",
+          "module": "kavaref-bom",
+          "version": {
+            "requires": "1.1.1"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          }
+        },
+        {
+          "group": "com.highcapable.kavaref",
+          "module": "kavaref-core"
+        },
+        {
+          "group": "com.highcapable.kavaref",
+          "module": "kavaref-android"
+        },
+        {
+          "group": "com.highcapable.kavaref",
+          "module": "kavaref-extension"
+        },
+        {
+          "group": "com.highcapable.betterandroid",
+          "module": "android-bom",
+          "version": {
+            "requires": "1.1.6"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          }
+        },
+        {
+          "group": "com.highcapable.betterandroid",
+          "module": "system-extension"
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "yukihook-extension-kavaref-1.5.1.aar",
+          "url": "yukihook-extension-kavaref-1.5.1.aar",
+          "size": 45877,
+          "sha512": "2a02d321d3124d836702171bbf6c58ea1165a6904a00e2e532250bfa1c20e075f29b2f65245d50e21cc5005d276ea5759873c0675e0e6809f394b04af2af926b",
+          "sha256": "0bde2fe00ccfd5798015a7588a1d0d949957a5be5e0207ad83a9163f2ec6974d",
+          "sha1": "a2c53763e861d76b6250c0e201a3452ff8caf628",
+          "md5": "0533eaa8837751444672bf147d615c8e"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "yukihook-extension-kavaref-1.5.1-sources.jar",
+          "url": "yukihook-extension-kavaref-1.5.1-sources.jar",
+          "size": 12163,
+          "sha512": "311a48ee8bf7c713021ac7ae435cfab6032a7f9d166f60963747288a23bc8d3b34d635c27753368a2cd9aff5c9fa602381e0871829b1e8fa50dbc71228c9ab73",
+          "sha256": "ddf18bf4f6e84ec921b816eb8e51cc5b99dc76a4237fea166be8276f4c7b5722",
+          "sha1": "a3de0c1fef44904670ca551082045fb3693e8595",
+          "md5": "349ac36b0306837e44791fb8c251ae64"
+        }
+      ]
+    }
+  ]
+}
